@@ -1,0 +1,285 @@
+{
+  "blogs": [
+    {
+      "title": "Vue学习总结",
+      "content": "一、axios的封装 在vue项目中，和后台交互获取数据这块，我们通常使用的是axios库，它是基于promise的http库，可运行在浏览器端和node.JS中。他有很多优秀的特性，例如拦截请求和响应、取消请求、转换JSon、客户端防御XSRF等。所以我们的尤大大也是果断放弃了对其官方库vue-resource的维护，直接推荐我们使用axios库。如果还对axios不了解的，可以移步axios文档。 安装 npm install axios; // 安装axios复制代码 引入 一般我会在项目的src目录中，新建一个request文件夹，然后在里面新建一个http.JS和一个api.JS文件。http.JS文件用来封装我们的axios，api.JS用来统一管理我们的接口。ffffff一、axios的封装 在vue项目中，和后台交互获取数据这块，我们通常使用的是axios库，它是基于promise的http库，可运行在浏览器端和node.JS中。他有很多优秀的特性，例如拦截请求和响应、取消请求、转换JSon、客户端防御XSRF等。所以我们的尤大大也是果断放弃了对其官方库vue-resource的维护，直接推荐我们使用axios库。如果还对axios不了解的，可以移步axios文档。 安装 npm install axios; // 安装axios复制代码 引入 一般我会在项目的src目录中，新建一个request文件夹，然后在里面新建一个http.JS和一个api.JS文件。http.JS文件用来封装我们的axios，api.JS用来统一管理我们的接口。ffffff一、axios的封装 在vue项目中，和后台交互获取数据这块，我们通常使用的是axios库，它是基于promise的http库，可运行在浏览器端和node.JS中。他有很多优秀的特性，例如拦截请求和响应、取消请求、转换JSon、客户端防御XSRF等。所以我们的尤大大也是果断放弃了对其官方库vue-resource的维护，直接推荐我们使用axios库。如果还对axios不了解的，可以移步axios文档。 安装 npm install axios; // 安装axios复制代码 引入 一般我会在项目的src目录中，新建一个request文件夹，然后在里面新建一个http.JS和一个api.JS文件。http.JS文件用来封装我们的axios，api.JS用来统一管理我们的接口。ffffff一、axios的封装 在vue项目中，和后台交互获取数据这块，我们通常使用的是axios库，它是基于promise的http库，可运行在浏览器端和node.JS中。他有很多优秀的特性，例如拦截请求和响应、取消请求、转换JSon、客户端防御XSRF等。所以我们的尤大大也是果断放弃了对其官方库vue-resource的维护，直接推荐我们使用axios库。如果还对axios不了解的，可以移步axios文档。 安装 npm install axios; // 安装axios复制代码 引入 一般我会在项目的src目录中，新建一个request文件夹，然后在里面新建一个http.JS和一个api.JS文件。http.JS文件用来封装我们的axios，api.JS用来统一管理我们的接口。ffffff",
+      "categories": [
+        "JQuery",
+        "Vue",
+        "CSS",
+        "Bootstrap"
+      ],
+      "id": 5,
+      "author": "Ken",
+      "companyId": 2,
+      "time": "2018年8月26日"
+    },
+    {
+      "title": "2018年各大互联网前端面试题三（阿里）",
+      "content": "三月份有很多朋友辞职跳槽，也遇到了许许多多的面试题，在交流群里和网站上总结了一些常见的面试题，细细分析，其实基本都是万变不离其宗，所有的问题都是从某一技术点的基础出发，综合考量，如果懂得了这项技术的原理所在，题目答起来内容都差不多能答对。",
+      "categories": [
+        "JQuery",
+        "Vue",
+        "CSS"
+      ],
+      "id": 6,
+      "author": "Ken",
+      "companyId": 2,
+      "time": "2018年8月26日"
+    },
+    {
+      "title": "Angular4学习总结",
+      "content": "Angular CLI是一个命令行界面工具，它可以创建项目、添加文件以及执行一大堆开发任务，比如测试、打包和发布。\n\n本章的目标是构建并运行一个超级简单的 TypeScript Angular 应用。使用 Angular CLI 来让每个 Angular 应用从风格指南的那些建议中获益。\n\n在本章的末尾，你会对用 CLI 进行开发有一个最基本的理解，并将其作为其它文档范例以及真实应用的基础。",
+      "categories": [
+        "Angular4"
+      ],
+      "author": "薇薇",
+      "id": 7,
+      "time": "2018年8月26日"
+    },
+    {
+      "title": "CSS垂直居中的方法",
+      "content": "方案1：position 元素已知宽度 \n父元素设置为：position: relative; \n子元素设置为：position: absolute; \n距上50%，据左50%，然后减去元素自身宽度的距离就可以实现 ",
+      "categories": [
+        "HTML"
+      ],
+      "author": "婷婷",
+      "id": 9,
+      "time": "2018年8月26日"
+    }
+  ],
+  "users": [
+    {
+      "name": "leo",
+      "password": "111111",
+      "emial": "2101999876@qq.com",
+      "id": 1
+    },
+    {
+      "name": "leo",
+      "password": "123456",
+      "emial": "2100900987@qq.com",
+      "id": 2
+    },
+    {
+      "name": "donnaLH",
+      "password": "000000",
+      "emial": "2100900000@qq.com",
+      "id": 3
+    },
+    {
+      "name": "柳薇",
+      "password": "123456",
+      "emial": "123456@qq.com",
+      "id": 4
+    },
+    {
+      "name": "lanlan",
+      "password": "999999",
+      "emial": "2998@qq.com",
+      "id": 5
+    }
+  ],
+  "interlocution": [
+    {
+      "time": "2018-08-29T01:33:54.252Z",
+      "author": "leo",
+      "voteCount": 2,
+      "showReply": false,
+      "topClass": 1,
+      "content": "react",
+      "id": 1,
+      "voteUser": [
+        "donnaLH",
+        "leo"
+      ],
+      "mark": 1
+    },
+    {
+      "author": "leo",
+      "toAuthor": "leo",
+      "voteCount": 0,
+      "content": "enenne",
+      "sub": true,
+      "topClass": 2,
+      "voteUser": [],
+      "time": "2018-08-29T06:58:31.929Z",
+      "mark": 1,
+      "id": 2
+    },
+    {
+      "author": "leo",
+      "voteCount": 1,
+      "content": "很开心",
+      "topClass": 1,
+      "voteUser": [
+        "leo"
+      ],
+      "mark": 3,
+      "time": "2018-08-29T07:11:54.910Z",
+      "id": 3
+    },
+    {
+      "author": "leo",
+      "toAuthor": "leo",
+      "voteCount": 0,
+      "content": "你知道",
+      "sub": true,
+      "topClass": 2,
+      "voteUser": [],
+      "time": "2018-08-29T07:12:03.137Z",
+      "mark": 3,
+      "id": 4
+    },
+    {
+      "author": "leo",
+      "voteCount": 0,
+      "content": "哦哈啊",
+      "topClass": 1,
+      "voteUser": [],
+      "mark": 5,
+      "time": "2018-08-29T07:40:05.786Z",
+      "id": 5
+    },
+    {
+      "author": "leo",
+      "toAuthor": "leo",
+      "voteCount": 0,
+      "content": "好开心",
+      "sub": true,
+      "topClass": 2,
+      "voteUser": [],
+      "time": "2018-08-29T07:40:20.842Z",
+      "mark": 5,
+      "id": 6
+    },
+    {
+      "author": "leo",
+      "toAuthor": "leo",
+      "voteCount": 0,
+      "content": "哦哦",
+      "sub": true,
+      "topClass": 2,
+      "voteUser": [],
+      "time": "2018-08-29T07:43:50.929Z",
+      "mark": 5,
+      "id": 7
+    },
+    {
+      "author": "leo",
+      "toAuthor": "leo",
+      "voteCount": 0,
+      "content": "我的",
+      "sub": true,
+      "topClass": 2,
+      "voteUser": [],
+      "time": "2018-08-29T07:44:25.136Z",
+      "mark": 5,
+      "id": 8
+    },
+    {
+      "author": "leo",
+      "toAuthor": "leo",
+      "voteCount": 0,
+      "content": "没有啊",
+      "sub": true,
+      "topClass": 2,
+      "voteUser": [],
+      "time": "2018-08-29T07:45:43.219Z",
+      "mark": 3,
+      "id": 9
+    },
+    {
+      "author": "leo",
+      "voteCount": 0,
+      "content": "新添加",
+      "topClass": 1,
+      "voteUser": [],
+      "mark": 10,
+      "time": "2018-08-29T07:46:16.072Z",
+      "id": 10
+    },
+    {
+      "author": "leo",
+      "toAuthor": "leo",
+      "voteCount": 0,
+      "content": "填一个",
+      "sub": true,
+      "topClass": 2,
+      "voteUser": [],
+      "time": "2018-08-29T07:46:26.147Z",
+      "mark": 10,
+      "id": 11
+    }
+  ],
+  "blogcomment": [
+    {
+      "id": 1,
+      "mark": 5,
+      "content": "我很好你很好大家都很好",
+      "time": "2018-8-26",
+      "name": "leo"
+    },
+    {
+      "mark": "5",
+      "content": "哈哈哈",
+      "time": "2018-08-30",
+      "name": "donnaLH",
+      "id": 2
+    },
+    {
+      "mark": "6",
+      "content": "rr",
+      "time": "2018-08-30",
+      "name": "leo",
+      "id": 3
+    },
+    {
+      "mark": "5",
+      "content": "e",
+      "time": "2018-08-31",
+      "name": "leo",
+      "id": 4
+    }
+  ],
+  "like": [
+    {
+      "id": 1,
+      "mark": 5,
+      "likeUser": [
+        "leo",
+        "donnaLH"
+      ],
+      "count": 2,
+      "title": "Vue学习总结"
+    },
+    {
+      "likeUser": [
+        "donnaLH",
+        "leo"
+      ],
+      "count": 2,
+      "mark": "6",
+      "id": 2,
+      "title": "2018年各大互联网前端面试题三（阿里）"
+    },
+    {
+      "likeUser": [
+        "donnaLH"
+      ],
+      "count": 1,
+      "mark": "7",
+      "id": 3,
+      "title": "Angular4学习总结"
+    },
+    {
+      "likeUser": [
+        "leo"
+      ],
+      "count": 1,
+      "mark": "9",
+      "title": "CSS垂直居中的方法",
+      "id": 4
+    }
+  ]
+}
